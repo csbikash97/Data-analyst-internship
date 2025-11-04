@@ -1,0 +1,25 @@
+# 🧹 Task 1 — Data Cleaning with Pandas
+## 📘 Overview
+This Jupyter Notebook (`Task1.ipynb`) demonstrates a **step-by-step data cleaning process** using **Python and pandas**.  
+It focuses on identifying and fixing common data quality issues such as:
+- Missing values
+- Duplicate records
+- Inconsistent data formats
+- Date and time parsing
+- Column type corrections
+The cleaned dataset is finally exported for further analysis or visualization.
+## 🧠 Learning Objectives
+By the end of this notebook, you will learn how to:
+1. Import and explore datasets using pandas.  
+2. Detect and remove duplicate or missing records.  
+3. Convert column datatypes (e.g., object → numeric or datetime).  
+4. Extract and manipulate date/time components (Date, Day, Month).  
+5. Clean inconsistent data formats (e.g., Patient IDs, date formats).  
+6. Export the cleaned dataset to CSV or Excel for later use.
+## 🛠️ Tools & Libraries
+| Library | Purpose |
+|----------|----------|
+| **pandas** | Data cleaning and manipulation |
+| **numpy** | Numeric operations |
+| **datetime** | Date and time conversions |
+| **openpyxl** | Excel file support (optional) |
